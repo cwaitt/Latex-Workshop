@@ -7,4 +7,4 @@ Creating an Overleaf account is fairly straight forward. You can sign up with a 
  
 To get started, go to [Overleaf](https://www.overleaf.com/for/authors) and select register in the top right.
 
-![Register](/images/Register.pdf)
+![Register](/images/Register.png)
