@@ -18,6 +18,17 @@ You can write the combustion of propane (\ce{C3H8(g)}) in the presence of excess
 You can also write general reactions such as:
 \begin{center}
 \ce{A-B + C* -> A* + B-C} \\ % the double slash forces a line break
-\ce{NH3 + H+ <=> NH3-H^{\ddagger} -> NH4+}
+\ce{A + B <=> [A-B]}
 \end{center}
+
+After compiling \LaTeX should have formated your chemical formulae for you. 
 ```
+
+After add the following to check that the code was entered correctly. You should see beautifully formated chemical equations. The mhchem package can be commbined with math mode symbols (next section) to make even nicer chemical equations. You can use the [mhchem documentation](https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/mhchem/mhchem.pdf) to format more complex chemical equations.
+
+## Exercise
+Try reproducing the follwoing equations in LaTeX:
+
+![chemeq](/images/Chem_Eq.png)
+
+The solutions can be found here.
