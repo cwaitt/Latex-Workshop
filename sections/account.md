@@ -15,4 +15,5 @@ Then register with a personal email, or sign in via Google or an OrcID. Do not t
 
 Once youve created an account, you should be at the home page. Click the link at the bottom to get started creating you LaTeX document.
 
-[Getting Started >>>](sections/helloworld.md)
+[Getting Started >>>](helloworld.md)
+[<<< Back](../README.md)
