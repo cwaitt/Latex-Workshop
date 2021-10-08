@@ -31,4 +31,11 @@ Try reproducing the follwoing equations in LaTeX:
 
 ![chemeq](/images/Chem_Eq.png)
 
-The solutions can be found here.
+The solutions can be found here. There are plenty of other examples that we did not address here. Next, we will introduce how to write mathmatical equations and how we can intergrate them with our chemical formulae package.
+
+[Writing Mathematical Formulae >>>](math.md)
+
+[<<< Back](preamble-body.md)
+
+[<<< Home](../README.md)
+
