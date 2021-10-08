@@ -26,7 +26,7 @@ Before we begin editing or writing anything LaTeX, lets break down the structure
 
 ![Doc_Struct](/images/Doc-Struct.png)
 
-Firstly, Overleaf color codes LaTeX specific commands as either blue or green, and plain text as black. You will also notice that the LaTeX commands start with a`\command{something}` or `\command[option]{something}`. These are protected symbols that LaTeX use to tell the difference between text and commands. We wont get into specifics here, but you should be aware that there are certain symbols you need to use with caution. 
+Firstly, Overleaf color codes LaTeX specific commands as either blue or green, and plain text as black. You will also notice that the LaTeX commands start with a`\command{something}` or `\command[option]{something}`. These are protected symbols that LaTeX use to tell the difference between text and commands. We wont get into specifics here, but you should be aware that there are certain [reserved symbols](https://www.overleaf.com/learn/latex/Creating_a_document_in_LaTeX#Reference_guide) you need to use with caution. 
 
 Every LaTeX document as two sections: a Preamble and a Body.
 

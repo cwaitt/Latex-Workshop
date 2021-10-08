@@ -2,20 +2,17 @@
 The Preamble is a very important piece of every LaTeX document. In the preamble you define the type of document you are writing, the language, and extra packages you will need, and set several parameters. Lets update the current Preamble that LaTeX has provided.
 
 ```
-
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 
 \title{My First LaTeX Project}
 \author{Craig Waitt}
 \date{October 2021}
-
 ```
 
 Lets add some comments so we can define each package and lets add some special packages. Commenting in LaTeX is performed using the `%` symbol
 
 ```
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%         Preamble        %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -38,9 +35,27 @@ Lets add some comments so we can define each package and lets add some special p
 \title{Hello World}                            % The title of your project            
 \author{Craig Waitt}                           % Author name
 \date{October 2021}                            % The date
-
 ```
 
 Once you make some changes, hit `Recompile` button on the top left of the third window. If all runs well it should recompile the pdf based on the change of setting made in the Preamble. Before we look at the Body, lets look through the LaTeX document to add the package(s) to add figures to your LaTeX document.
 
 # The Body
+Everything included inside the `\begin{document}` and `\end{document}` commands will be rendered in the final document.
+
+```
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\end{document}
+``` 
+
+The `\maketitle` command will read the title, author, and date info in the Preamble, and will render it at the begining of your document. From there, each subsequent section in your document will be seperated by the commands `\section{}` and `\subsection{}`. Next, we will go over several exercises you will come across in your writing.
+
+[Chemical Formula >>>](chem-form.md)
+
+[<<< Back](start.md)
+
+[<<< Home](../README.md)
