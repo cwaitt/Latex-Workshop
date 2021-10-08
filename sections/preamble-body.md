@@ -2,17 +2,20 @@
 The Preamble is a very important piece of every LaTeX document. In the preamble you define the type of document you are writing, the language, and extra packages you will need, and set several parameters. Lets update the current Preamble that LaTeX has provided.
 
 '''
+
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 
 \title{My First LaTeX Project}
 \author{Craig Waitt}
 \date{October 2021}
+
 '''
 
 Lets add some comments so we can define each package and lets add some special packages. Commenting in LaTeX is performed using the `%` symbol
 
 '''
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%         Preamble        %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -35,6 +38,7 @@ Lets add some comments so we can define each package and lets add some special p
 \title{Hello World}                            % The title of your project            
 \author{Craig Waitt}                           % Author name
 \date{October 2021}                            % The date
+
 '''
 
 Once you make some changes, hit `Recompile` button on the top left of the third window. If all runs well it should recompile the pdf based on the change of setting made in the Preamble. Before we look at the Body, lets look through the LaTeX document to add the package(s) to add figures to your LaTeX document.

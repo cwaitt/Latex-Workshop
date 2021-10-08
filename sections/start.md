@@ -32,6 +32,6 @@ Every LaTeX document as two sections: a Preamble and a Body.
 
 [The Preamble and Body >>>](preamble-body.md)
 
-[<<< Back](acoount.md)
+[<<< Back](account.md)
 
-[<<< Home](../README)
+[<<< Home](../README.md)
