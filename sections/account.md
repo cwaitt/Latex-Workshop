@@ -8,3 +8,11 @@ Creating an Overleaf account is fairly straight forward. You can sign up with a 
 To get started, go to [Overleaf](https://www.overleaf.com/for/authors) and select register in the top right.
 
 ![Register](/images/Register.png)
+
+Then register with a personal email, or sign in via Google or an OrcID. Do not try to sign in with the institutional ID at the bottom.
+
+![Register2](/images/Register-2.png)
+
+Once youve created an account, you should be at the home page. Click the link at the bottom to get started creating you LaTeX document.
+
+[Getting Started >>>](sections/helloworld.md)
