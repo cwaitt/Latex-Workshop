@@ -13,5 +13,6 @@ LaTeX is an amazing tool to create documents, cvs, book chapters, and other prof
 
 At the end of this workshop, the goal is for you to have a starting document that you can use as a template for your own work, as well as become familiar with the [LaTeX documentation](https://www.overleaf.com/learn/latex/Creating_a_document_in_LaTeX) which covers everthing you need to know to produce your own LaTeX document.	To complete these activites, we will be using [Overleaf](https://www.overleaf.com/for/authors), which is a free, cloud-based, collaborative, writing and publishing tool based around LaTeX. To use Overleaf, you will need to create an account using you ND credentials. 
 
-[Create an Overleaf Account](sections/account.md)
-[Getting Started](sections/helloworld.md) 
+[Create an Overleaf Account >>>](sections/account.md)
+
+[Getting Started >>>](sections/helloworld.md) 
