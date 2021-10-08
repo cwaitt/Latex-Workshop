@@ -15,4 +15,4 @@ At the end of this workshop, the goal is for you to have a starting document tha
 
 [Create an Overleaf Account >>>](sections/account.md)
 
-[Getting Started >>>](sections/helloworld.md) 
+[Getting Started >>>](sections/start.md) 
