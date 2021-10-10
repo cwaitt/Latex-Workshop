@@ -40,7 +40,7 @@ Lets add some comments so we can define each package and lets add some special p
 Once you make some changes, hit `Recompile` button on the top left of the third window. If all runs well it should recompile the pdf based on the change of setting made in the Preamble. Before we look at the Body, lets look through the LaTeX document to add the package(s) to add figures to your LaTeX document.
 
 ## Exercise
-Add the package that allows us to include figures into our LaTeX document, as well as a folder in project managment workspace that contains the path of where you will store your images. See ??? for the solution.
+**Add the package that allows us to include figures into our LaTeX document, as well as a folder in the project managment workspace (left window) that contains the path of where you will store your images. Click [here](soln1.md) for the solution.**
 
 # The Body
 Everything included inside the `\begin{document}` and `\end{document}` commands will be rendered in the final document.

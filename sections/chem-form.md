@@ -17,21 +17,22 @@ You can write the combustion of propane (\ce{C3H8(g)}) in the presence of excess
 
 You can also write general reactions such as:
 \begin{center}
-\ce{A-B + C* -> A* + B-C} \\ % the double slash forces a line break
+\ce{A-B + C* -> A* + B-C} \\ % the double slash forces a line break\new line
 \ce{A + B <=> [A-B]}
 \end{center}
 
-After compiling \LaTeX should have formated your chemical formulae for you. 
+After compiling {\LaTeX} should have formated your chemical formulae for you. % \LaTeX is a built-in command for wriing the word LaTeX correctly. We encapsulate \LaTeX in {} to put a space between the words 'LaTeX' and 'should'. Delete the {} brackets and recompile the file to see what happens.
+
 ```
 
 After add the following to check that the code was entered correctly. You should see beautifully formated chemical equations. The mhchem package can be commbined with math mode symbols (next section) to make even nicer chemical equations. You can use the [mhchem documentation](https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/mhchem/mhchem.pdf) to format more complex chemical equations.
 
 ## Exercise
-Try reproducing the follwoing equations in LaTeX:
+**Try reproducing the follwoing equations in LaTeX:**
 
-![chemeq](/images/Chem_Eq.png)
+![chemeq](/images/Chem-Eq.png)
 
-The solutions can be found here. There are plenty of other examples that we did not address here. Next, we will introduce how to write mathmatical equations and how we can intergrate them with our chemical formulae package.
+The solution can be found [here](soln2.md). There are plenty of other examples that we did not address here. Next, we will introduce how to write mathmatical equations and how we can intergrate them with our chemical formulae package.
 
 [Writing Mathematical Formulae >>>](math.md)
 
