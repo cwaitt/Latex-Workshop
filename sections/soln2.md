@@ -6,6 +6,6 @@
 
 2. First, we need a reversible arrow, which can be acheived by taking the double arrow `<->` and replaceing the dash with an equal sign `<=>`. Second, we can wrtie text on our arrows by following up our reversibility arrow by a set of square brackets, `[]`, and then the text we want above the arrow in curly brackets, `{}`.
 
-Follow the documentation for [mhchem](https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/mhchem/mhchem.pdf for more formatting tips, or look into the other packages availible.)
+Follow the documentation for [mhchem](https://mirror.las.iastate.edu/tex-archive/macros/latex/contrib/mhchem/mhchem.pdf) for more formatting tips, or look into the other packages availible.
 
 [<<< Back](chem-form.md)
