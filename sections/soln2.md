@@ -1,6 +1,15 @@
 # Writing Chemical Formula
 
-![soln2](/images/soln2.png)
+```
+\subsection{Exercise}
+
+\begin{center} 
+\ce{CH3COOH (aq) + H2O (l) <-> CH3COO- (aq) + H3O+ (aq)}
+\\
+\ce{A + B <=>[{k1}][{k2}] C } 
+\\
+\end{center}
+```
 
 1. To show charges, we simply add a `+` or `-` to the chemical name. Important thing to note: '-' and '$-$' have two different meanings, and you should use $-$ when refering to a negative sign. The equilibrium sign can also be written by replacing the one directional arrow `->` with a double arrow `<->`
 

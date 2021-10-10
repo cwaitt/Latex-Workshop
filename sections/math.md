@@ -65,7 +65,7 @@ We can refer to equations in display mode later by assigning it a label and the 
 The `\label{}` command is very powerful as it allows you to refer to the equations (as we will see figures and tables) without worring about the order which they appear.
 
 ## Exercise
-Try reproducing the the following bellow in you LaTeX Document. You may find this external sheet helpful when looking up [math symbols](https://www.overleaf.com/learn/latex/Mathematical_expressions#Reference_guide), or this one which is a more comprehensive [list of symbols](https://www.caam.rice.edu/~heinken/latex/symbols.pdf). 
+** Try reproducing the the following bellow in you LaTeX Document. You may find this external sheet helpful when looking up [math symbols](https://www.overleaf.com/learn/latex/Mathematical_expressions#Reference_guide), or this one which is a more comprehensive [list of symbols](https://www.caam.rice.edu/~heinken/latex/symbols.pdf). **
 
 ![math](/images/Math-Eq.png)
 

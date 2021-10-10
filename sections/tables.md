@@ -32,6 +32,8 @@ Finally, no table is complete without a caption to explain its contents are. Dep
 
 ![table](/images/Tab-Ex.png) 
 
+The solution can be found [here](soln4.md)
+
 [Creating Figures >>>](figure.md)
 
 [<<< Back](math.md)
