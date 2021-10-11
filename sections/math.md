@@ -21,9 +21,8 @@ Lets try some examples of inline math mode.
 
 \subsection{Inline Math Mode}
 
-Gibbs free energy of formation: $\Delta G^{\circ}_{\text{form}} = \Delta H^{\circ}_{\text{form}} - \Delta S^{\circ}_{\text{form}} T$. This equation uses several \^ and \_ to set superscripts and subscripts. We are also using some mathematical symbols such as \textbackslash Delta ($\Delta$) and \textbackslash circ ($\circ$) which come from the \textbackslash usepackage\{amsmath\}. You'll notice that the mathematical symbols are italicized, but the word 'form' is not. That's because we called the \textbackslash text\{\} command to force that word to show up in a regular font. It is very important to use `{}` appropriately to encapsulate parts of your equation. \\
-\\
-   
+Gibbs free energy of formation: $\Delta G^{\circ}_{\text{form}} = \Delta H^{\circ}_{\text{form}} - \Delta S^{\circ}_{\text{form}} T$. This equation uses several {\string^} and {\_} to set superscripts and subscripts. We are also using some mathematical symbols such as \textbackslash Delta ($\Delta$) and \textbackslash circ ($\circ$) which come from the \textbackslash usepackage\{amsmath\}. You'll notice that the mathematical symbols are italicized, but the word 'form' is not. That's because we called the \textbackslash text\{\} command to force that word to show up in a regular font. It is very important to use `\{\}` appropriately to encapsulate parts of your equation. \\
+\\ 
 ```
 
 Copy this code into your LaTeX document and compile the PDF.
@@ -46,8 +45,6 @@ Lets add another example into our LaTeX document.
 ```
 \subsection{Display Mode}
 
-\subsection{Display Mode}
-
 The canonical partition function can be expressed as:
 \begin{equation}
     Z = \sum_{i} \exp(-\epsilon_{i}\beta)
@@ -65,7 +62,7 @@ We can refer to equations in display mode later by assigning it a label and the 
 The `\label{}` command is very powerful as it allows you to refer to the equations (as we will see figures and tables) without worring about the order which they appear.
 
 ## Exercise
-** Try reproducing the the following bellow in you LaTeX Document. You may find this external sheet helpful when looking up [math symbols](https://www.overleaf.com/learn/latex/Mathematical_expressions#Reference_guide), or this one which is a more comprehensive [list of symbols](https://www.caam.rice.edu/~heinken/latex/symbols.pdf). **
+**Try reproducing the the following bellow in you LaTeX Document. You may find this external sheet helpful when looking up [math symbols](https://www.overleaf.com/learn/latex/Mathematical_expressions#Reference_guide), or this one which is a more comprehensive [list of symbols](https://www.caam.rice.edu/~heinken/latex/symbols.pdf).**
 
 ![math](/images/Math-Eq.png)
 

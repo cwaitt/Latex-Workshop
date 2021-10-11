@@ -2,18 +2,18 @@
 
 ```
 \subsection{Example}
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[scale=0.15, trim={0cm 0cm 0cm 0cm},clip]{"./cosmic.jpg"}
     \caption{This image is not cropped.}
     \label{fig:cosmic}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[scale=0.15, trim={0cm 0cm 40cm 0cm},clip]{"./cosmic.jpg"}
-    \caption{This image is not cropped.}
-    \label{fig:cosmic}
+    \caption{This image is cropped.}
+    \label{fig:cosmic-2}
 \end{figure}
 ```
 

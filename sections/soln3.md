@@ -5,22 +5,22 @@
 
 The rate expression is expressed as:
 \begin{equation}
-    \nu_{0} = k [A]^{x} [B]^{y}
+    \nu_{0} = k [\text{A}]^{x} [\text{B}]^{y}
     \label{eq:rate}
 \end{equation}
-where $[A]$ and $[B]$ are the concentration of species $A$ and $B$ respectively. $k$ is the rate constant, and the exponents ($x$ and $y$) are the partial rate orders. Equation \ref{eq:rate} can be found in any physical chemistry book.
+where [A] and [B] are the concentration of species $A$ and $B$ respectively. $k$ is the rate constant, and the exponents ($x$ and $y$) are the partial rate orders. Equation \ref{eq:rate} can be found in any physical chemistry book.
 
-We can also combine mhchem and mathmode together. For instance, the chemical reaction:
+We can also combine mhchem and math mode together. For instance, the chemical reaction:
 \begin{equation}
     \ce{2A <=>[{k_{1}}] B}
 \end{equation}
 \noindent has the rate expression:
 \begin{equation}
-    \nu_{0} = k_{1}[A]^{2}
+    \nu_{0} = k_{1}[\ce{A}]^{2}
 \end{equation}
-\noindent If the rate constant $k_{1}$ is known, the the concentration of $A$ at time $t$ can be computed by:
+\noindent If the rate constant $k_{1}$ is known, the the concentration of \ce{A} at time $t$ can be computed by:
 \begin{equation}
-    \frac{1}{[A]} = \frac{1}{[A]_{0}} + k_{1}t
+    \frac{1}{[\ce{A}]} = \frac{1}{[\ce{A}]_{0}} + k_{1}t
 \end{equation}
 ```
 

@@ -10,7 +10,7 @@ This concludeds the LaTeX demonstration. Hopefully you now have a sample workshe
 
 [Chemical Formula](chem-form.md)
 
-[Writing MAthematical Formulae](math.md)
+[Writing Mathematical Formulae](math.md)
 
 [Creating Tables](tables.md)
 

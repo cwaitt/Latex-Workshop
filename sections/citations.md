@@ -54,7 +54,7 @@ Once you have a citation file, you need to tell you LaTeX file to look for the b
 \addbibresource{sample.bib}
 ```
 
-This tells LaTeX what kind of citation style we want to use, and then the file that contains our citations.
+This tells LaTeX what kind of [citation style](https://www.overleaf.com/learn/latex/Biblatex_bibliography_styles) we want to use, and then the file that contains our citations.
 
 Now that we have our citations loaded, we can start refering to them in text. To call a citation, you only need to use the `\cite{}` command. 
 

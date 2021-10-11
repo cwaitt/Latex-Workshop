@@ -21,7 +21,7 @@ You can also write general reactions such as:
 \ce{A + B <=> [A-B]}
 \end{center}
 
-After compiling {\LaTeX} should have formated your chemical formulae for you. % \LaTeX is a built-in command for wriing the word LaTeX correctly. We encapsulate \LaTeX in {} to put a space between the words 'LaTeX' and 'should'. Delete the {} brackets and recompile the file to see what happens.
+After compiling {\LaTeX} should have formatted your chemical formulae for you. % \LaTeX is a built-in command for writting the word LaTeX correctly. We encapsulate \LaTeX in {} to put a space between the words 'LaTeX' and 'should'. Delete the {} brackets and recompile the file to see what happens.
 
 ```
 

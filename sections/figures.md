@@ -6,6 +6,7 @@ Like tables, inserting figures can be somewhat tediuos, but in my opinion is muc
 Similar to tables, LaTeX will try to put the figure where it thinks it should go, so we will overridde LaTeX's "thinking" and force it to a specific location with the `[h]` option. Simply put, when you are ready to add a figure you simply would type:
 
 ```
+\newpage
 \section{Figures}
 
 To add Figure \ref{fig:overleaf} to your document, you only need to type \textbackslash includegraphics\{\} and then the path to the graphic.
@@ -20,7 +21,7 @@ To add Figure \ref{fig:overleaf} to your document, you only need to type \textba
 
 When you copy this code into your LaTeX code, and recompile the pdf, you should see the Figure with its caption below it. You will also see that we used the command `\ref{fig:overleaf}` before we actually inserted our figure. LaTeX is able to make internal document links in out of order from when they are called.
 
-## Formating Figure
+## Formatting Figure
 
 After inserting the image, there are a host of different things you can do, such as crop, resize, and rotating your image. You can also make a single figure which is a composite of multiple figures, but we will not address that in this tutorial. You can learn all about the figure utilities [here](https://www.overleaf.com/learn/latex/Inserting_Images).
 
@@ -35,6 +36,8 @@ Formating the figure size is pretty simple. After the `\includegraphics{}` comma
     \caption{This logo is doubled in size.}
     \label{fig:overleaf-2}
 \end{figure}
+
+\newpage
 
 \begin{figure}[h]
     \centering
