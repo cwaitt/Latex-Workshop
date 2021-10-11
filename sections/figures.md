@@ -10,7 +10,7 @@ Similar to tables, LaTeX will try to put the figure where it thinks it should go
 
 To add Figure \ref{fig:overleaf} to your document, you only need to type \textbackslash includegraphics\{\} and then the path to the graphic.
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics{"./overleaf_og_logo.png"}
     \caption{This is the overleaf logo.}
@@ -29,14 +29,14 @@ After inserting the image, there are a host of different things you can do, such
 Formating the figure size is pretty simple. After the `\includegraphics{}` command we can specify our options. When resizing a figure. It is important to scale the image uniformally, but there are ways to scale the [width and length separatly](https://www.overleaf.com/learn/latex/Inserting_Images#Changing_the_image_size_and_rotating_the_picture). 
 
 ```
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[scale=2]{"./overleaf_og_logo.png"} % doubles the size of the image
     \caption{This logo is doubled in size.}
     \label{fig:overleaf-2}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{"./overleaf_og_logo.png"}
     \caption{This logo fills the width of the page.}
@@ -47,7 +47,7 @@ Figure \ref{fig:overleaf-2} is doubled in size and Figure \ref{fig:overleaf-3} f
 ```
 
 ## Examples 
-** Add the cosmic or flower png, scale the image size so it fits on the page, and crop the image so that about half of the image is gone. The solution can be found [here](soln5.md). You can use this [stack exchange](https://tex.stackexchange.com/questions/57418/crop-an-inserted-image) comment for help if you need it. **
+**Add the cosmic or flower png, scale the image size so it fits on the page, and crop the image so that about half of the image is gone. The solution can be found [here](soln5.md). You can use this [stack exchange](https://tex.stackexchange.com/questions/57418/crop-an-inserted-image) comment for help if you need it.**
 
 [Making Citations >>>](citations.md)
 

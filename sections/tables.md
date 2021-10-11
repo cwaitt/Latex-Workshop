@@ -28,7 +28,7 @@ This is all you generally need to make basic tables. There are many different wa
 Finally, no table is complete without a caption to explain its contents are. Depending on the journal you are writing for, captions can go at the top or bottom of figures or tables. Gererally, captions go at the tops of tables and the bottom of figures. You can add a caption through the `\caption{}` command.
 
 ## Exercise
-** Lets make a quick table of thermodyncamic parameters. Try and reproduce the table below. **
+**Lets make a quick table of thermodyncamic parameters. Try and reproduce the table below.**
 
 ![table](/images/Tab-Ex.png) 
 
