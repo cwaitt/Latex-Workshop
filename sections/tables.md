@@ -34,7 +34,7 @@ Finally, no table is complete without a caption to explain its contents are. Dep
 
 The solution can be found [here](soln4.md)
 
-[Creating Figures >>>](figure.md)
+[Creating Figures >>>](figures.md)
 
 [<<< Back](math.md)
 
