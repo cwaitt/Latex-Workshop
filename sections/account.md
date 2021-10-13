@@ -17,8 +17,12 @@ Then register with a personal email, or sign in via Google or an ORCID. Do not t
 
 ![Register2](/images/Register-2.png)
 
-Once youve created an account, you should be at the home page. Click the link at the bottom to get started creating you LaTeX document.
+Once youve created an account, you will be prompted to create your first project. **Click on projects to get to the project management page.**
+
+![Register3](/images/Register-3.png)
+
 
 [Getting Started >>>](start.md)
+
 
 [<<< Back](../README.md) 
