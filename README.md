@@ -9,11 +9,12 @@ LaTeX is an amazing tool to create documents, cvs, book chapters, and other prof
 	* What goes into the preamble?
 	* What goes into the body?
 3. Some commonly used commands you'll use in LaTeX
-	* [How do you write chemical formula?](sections/chem-form.md)
-	* [How do you insert images/figures?](sections/figures.md)
 	* [How do you write mathmatical formule?](sections/math.md)
 	* [How do you create tables?](sections/tables.md)
-	* [How do you add citations?](sections/citations.md)
+	* [How do you insert figures/images?](sections/figures.md)
+	* **Advanced Topics**
+		* [How do you write chemical formula?](sections/chem-form.md)
+		* [How do you add citations?](sections/citations.md)
 
 At the end of this workshop, the goal is for you to have a reference document that you can use as a template for your own work, as well as become familiar with the [LaTeX documentation](https://www.overleaf.com/learn/latex/Creating_a_document_in_LaTeX) which covers everthing you need to know to produce your own LaTeX document.	
 
