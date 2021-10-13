@@ -12,10 +12,9 @@
 
 %%% User defined Packages %%%
 
-\usepackage[english]{babel}                    % Optional language setting
 \usepackage{amsmath}                           % Includes useful math symbols
 \usepackage{tabularx}                          % Allows us to add tables
-\usepackage{mhchem}                            % Writing chemical reactions, molecules, etc
+\usepackage[version=4]{mhchem}                 % Writing chemical reactions, molecules, etc
 
 \usepackage{graphicx}                          % This package will allow use to make and refer to figures
 \graphicspath{ {./images/} }                   % that exist in the images folder

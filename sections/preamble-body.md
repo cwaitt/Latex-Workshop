@@ -45,7 +45,7 @@ Following these two commands, we have three lines that define some document spec
 
 \usepackage{amsmath}                           % Includes useful math symbols
 \usepackage{tabularx}                          % Allows us to add tables
-\usepackage[version=4]{mhchem}                            % Writing chemical reactions, molecules, etc
+\usepackage[version=4]{mhchem}                 % Writing chemical reactions, molecules, etc
 
 
 %%% Document specific things %%%

@@ -2,6 +2,14 @@
 
 LaTeX makes writing chemical equations seamlessly. There are two ways you will likely use math mode: *inline* math mode, which allows you to write equations as a part of a paragraph, and *display* math mode, which is used to write equations that are not part of a paragraph.
 
+## Learning Objectives
+
+1. Difference between inline and display math mode
+
+2. Start and write in a particular math mode
+
+3. Practice using both
+
 ## Inline Math Mode
 
 There are three ways to start up inline math mode:
@@ -12,9 +20,7 @@ There are three ways to start up inline math mode:
 
 3. `\begin{math} ... \end{math}`
 
-My preference for calling inline math mode is to use `$...$` since I'm not using the `$` sign often in text, and requires less user input. 
-
-Lets try some examples of inline math mode.
+My preference for calling inline math mode is to use `$...$` since I'm not using the `$` sign often in text, and requires less user input. Lets try some examples of inline math mode.
 
 ```
 \section{Math Mode}
@@ -62,14 +68,12 @@ We can refer to equations in display mode later by assigning it a label and the 
 The `\label{}` command is very powerful as it allows you to refer to the equations (as we will see figures and tables) without worring about the order which they appear.
 
 ## Exercise
-**Try reproducing the the following bellow in you LaTeX Document. You may find this external sheet helpful when looking up [math symbols](https://www.overleaf.com/learn/latex/Mathematical_expressions#Reference_guide), or this one which is a more comprehensive [list of symbols](https://www.caam.rice.edu/~heinken/latex/symbols.pdf).**
+**Try reproducing the the following bellow in you LaTeX Document. You may find this external sheet helpful when looking up [math symbols](https://www.overleaf.com/learn/latex/Mathematical_expressions#Reference_guide), or this one which is a more comprehensive [list of symbols](https://www.caam.rice.edu/~heinken/latex/symbols.pdf). The solution can be found [here](soln3.md)**
 
 ![math](/images/Math-Eq.png)
 
-The solution can be found [here](soln3.md).
-
 [Creating Tables >>>](tables.md)
 
-[<<< Back](chem-form.md)
+[<<< Back](preamble-body.md)
 
 [<<< Home](../README.md)
