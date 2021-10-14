@@ -2,7 +2,7 @@
 
 ![LatexImage](/images/Latex.png)
 
-LaTeX is an amazing tool to create documents, cvs, book chapters, and other professional-looking materials. LaTeX is based on 'WYSIWYM' (what you see is what you mean) idea, meaning you only have to focus on the contents of you document and the computer will take care of the formatting. This GitHub repositort will go over some basic prinicples:
+LaTeX is an amazing tool to create documents, cvs, book chapters, and other professional-looking materials. LaTeX is based on 'WYSIWYM' (what you see is what you mean) idea, meaning you only have to focus on the contents of you document and the computer will take care of the formatting. This GitHub repository will go over some basic prinicples:
 
 1. How do we create a LaTeX document in Overleaf?
 2. The basic structure of a LaTeX document:
