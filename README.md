@@ -6,8 +6,8 @@ LaTeX is an amazing tool to create documents, cvs, book chapters, and other prof
 
 1. How do we create a LaTeX document in Overleaf?
 2. The basic structure of a LaTeX document:
-	* What goes into the preamble?
-	* What goes into the body?
+	* [What goes into the preamble?](sections/preamble-body.md)
+	* [What goes into the body?](sections/preamble-body.md)
 3. Some commonly used commands you'll use in LaTeX
 	* [How do you write mathmatical formule?](sections/math.md)
 	* [How do you create tables?](sections/tables.md)

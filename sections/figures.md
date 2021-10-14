@@ -2,11 +2,19 @@
 
 Like tables, inserting figures can be somewhat tediuos, but in my opinion is much easier the Microsoft Word (or related products). Before we begin, we will need to add some figures to our folder to use in our LaTeX document. On the GitHub page, I have included a folder called [examples/inserting_figures](/examples/inserting_figures). Dowload the images onto your local machine, and upload them to the 'images' folder on your LaTeX project manager.
 
+## Learning Objectives
+1. Uplaod images to Overleaf
+
+2. Inserting images in Overleaf
+
+3. Formating and resizing the figure
+
 ## Inserting Figures
 Similar to tables, LaTeX will try to put the figure where it thinks it should go, so we will overridde LaTeX's "thinking" and force it to a specific location with the `[h]` option. Simply put, when you are ready to add a figure you simply would type:
 
 ```
 \newpage
+
 \section{Figures}
 
 To add Figure \ref{fig:overleaf} to your document, you only need to type \textbackslash includegraphics\{\} and then the path to the graphic.
@@ -19,7 +27,7 @@ To add Figure \ref{fig:overleaf} to your document, you only need to type \textba
 \end{figure}
 ```
 
-When you copy this code into your LaTeX code, and recompile the pdf, you should see the Figure with its caption below it. You will also see that we used the command `\ref{fig:overleaf}` before we actually inserted our figure. LaTeX is able to make internal document links in out of order from when they are called.
+When you copy this code into your LaTeX document, and recompile the pdf, you should see the Figure with its caption below it. You will also see that we used the command `\ref{fig:overleaf}` before we actually inserted our figure. LaTeX is able to make internal document links in out of order from when they are called.
 
 ## Formatting Figure
 
@@ -50,9 +58,9 @@ Figure \ref{fig:overleaf-2} is doubled in size and Figure \ref{fig:overleaf-3} f
 ```
 
 ## Examples 
-**Add the cosmic or flower png, scale the image size so it fits on the page, and crop the image so that about half of the image is gone. The solution can be found [here](soln5.md). You can use this [stack exchange](https://tex.stackexchange.com/questions/57418/crop-an-inserted-image) comment for help if you need it.**
+**Add the cosmic jpg to your folder, scale the image size by approximately 1/10 so it fits on the page, and crop the image so that about half of the image is gone. The solution can be found [here](soln5.md). You can use this [stack exchange](https://tex.stackexchange.com/questions/57418/crop-an-inserted-image) comment for help if you need it.**
 
-[Making Citations >>>](citations.md)
+[Chemical Formula >>>](chem-form.md)
 
 [<<< Back](tables.md)
 

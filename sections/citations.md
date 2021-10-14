@@ -1,6 +1,18 @@
-# Making citations
+# Making Citations
 
-Adding citations into LaTeX is easly and seamless. The hard part is actually getting the things you want to cite, but citation managers such as Zotero and Mendeley have made it much easier to make bib file. bib files are formatted in 'LaTeX -like' style, where all you really need to know is the citation nickname. Below is an example of how the citations appear in a bib file. Make a file called sample.bib, and copy these into that file.
+Adding citations into LaTeX is easy and seamless. The hard part is actually getting the things you want to cite into Overleaf, but citation managers such as Zotero and Mendeley have made it much easier to do so.
+
+## Leraning Objectives
+
+1. Creating a bib file
+
+2. Calling a citation in text
+
+3. Creating a References page 
+
+## Bib Files
+
+Bib files are formatted in 'LaTeX -like' style, where all you really need to know is the citation nickname. Below is an example of how the citations appear in a bib file. Make a file called sample.bib, in your project manager on the left, and copy this code into that file.
 
 ```
 @article{ahu61,
@@ -45,8 +57,9 @@ Adding citations into LaTeX is easly and seamless. The hard part is actually get
 
 ```
 
-## In text citation
-Once you have a citation file, you need to tell you LaTeX file to look for the bib file. Add the following two lines in the Preamble:
+## Intext Citation
+
+Once you have a citation file, you need to tell you LaTeX file to look for the bib file. Add the following two lines in the preamble:
 
 ```
 \usepackage[backend=biber,style=chem-acs]{biblatex} % a package for writing citations
@@ -65,6 +78,7 @@ Now that we have our citations loaded, we can start refering to them in text. To
 
 Adding citations is easy. You only need to type what you want, followed by \textbackslash cite\{\} and the citation will appear.\cite{ab94} Overleaf, even creates a drop down menu for you to select which citation you want.\cite{ahu61} You can cite multiple sources at once as well.\cite{m85,ab94,ah2006}. You now no longer need to worry about properly citing each citation, {\LaTeX} takes care of it for you.
 ```
+## References Page
 
 Finally, you can display the bibliography by typing `\printbibliography` before the `\end{document}` line. Your references should now be displayed at the bottom of the document. You may wish to add a `\newpage` to separate the References from the rest of the document.
 
