@@ -74,6 +74,6 @@ The `\label{}` command is very powerful as it allows you to refer to the equatio
 
 [Creating Tables >>>](tables.md)
 
-[<<< Back](preamble-body.md)
+[<<< Back](errors.md)
 
 [<<< Home](../README.md)

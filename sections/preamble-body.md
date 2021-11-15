@@ -75,7 +75,7 @@ Everything included inside the `\begin{document}` and `\end{document}` commands 
 
 The `\maketitle` command will read the title, author, and date info in the preamble, and will render it at the begining of your document. From there, each subsequent section in your document will be seperated by the commands `\section{}` and `\subsection{}`. Next, we will go over several exercises you will come across in your writing.
 
-[Writing Mathematical Formula >>>](math.md)
+[Identifying Errors >>>](errors.md)
 
 [<<< Back](start.md)
 
