@@ -3,7 +3,7 @@ Once you log into Overleaf, you will enter the project managment page, which loo
 
 ![Starting](/images/Getting-Started.png)
 
-If this is your first time in Overleaf, you shouldn't have any documents here, but as you start writing more and more LaTeX code, Overleaf's project managment page gives you the ability to organize projects.
+If this is your first time in Overleaf, you shouldn't have any documents here, but as you start writing more and more LaTeX code, Overleafs project managment page gives you the ability to organize projects.
 
 Lets start by creating a new project by selecting the green `New Project` button above. This should create a drop down menu like this:
 
