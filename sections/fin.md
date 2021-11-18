@@ -18,3 +18,4 @@ This concludeds the LaTeX demonstration. Hopefully you now have a sample workshe
 
 [Making Citations](citations.md)
 
+Please go to [Google Forms](https://docs.google.com/forms/d/e/1FAIpQLSebSoKcsQeq2v08AmFRz-vw6Zk7CtAWWJpypgnp6wvM2rSNUw/viewform?usp=sf_link) to fill out a quick survey. 
