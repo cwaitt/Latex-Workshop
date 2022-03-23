@@ -1,22 +1,22 @@
 # Notre Dame Dissertation Template
 
-The University of Notre Dame has gathered a number of resources useful to dissertation and thesis authors [here](https://graduateschool.nd.edu/policies-forms/doctoral-dissertations-masters-theses/author-resources/). There are two tools provided by the university to get you started writing your dissertation: an Microsoft word template and a Latex class file. To those who are new to Latex, the initial directions may seem daunting or overwhelming. However, the university has integrated this Latex class package into Overleaf, making dissertationa and thesis writing much more simple. This page will walk through the steps needed to create your document, and create a template that you can begin writing in.
+The University of Notre Dame has gathered a number of resources useful to dissertation and thesis authors [here](https://graduateschool.nd.edu/policies-forms/doctoral-dissertations-masters-theses/author-resources/). There are two tools provided by the university to get you started writing your dissertation: an Microsoft word template and a Latex class file. To those who are new to Latex, the initial directions may seem daunting or overwhelming. However, the university has integrated this Latex class package into Overleaf, making dissertations and thesis writing much more simple. This page will walk through the steps needed to create your document, and create a template that you can begin writing in.
 
-**Note:** This tutorial was written in 2022, and the Latex package was created in 2013. Since it inception, not much has changed in the document formating requirements. However, the graduate school may change how they want the documents to be formatted. You should always follow the directions presented by the graduate school. In the event the graduate school does change their formatting requirements, and you still wish to use Latex to write your document, please reach out to the graduate school for assistance at dteditor@nd.edu. You can also find the original source code and examples on how to write your document in Latex [here](https://github.com/ndlib/nddiss)
+**Note:** This tutorial was written in 2022, and the Latex package was created in 2013. Since its inception, not much has changed in the document formating requirements. However, the graduate school may change how they want the documents to be formatted. You should always follow the directions presented by the graduate school. In the event the graduate school does change their formatting requirements, and you still wish to use Latex to write your document, please reach out to the graduate school for assistance at dteditor@nd.edu. You can also find the original source code and examples on how to write your document in Latex [here](https://github.com/ndlib/nddiss).
 
 ## Learning Objectives
 
-1. What is **nddiss2e** and how to customize the options to format the dissertation or thesis.
+1. What is **nddiss2e** and how to customize the options to format the dissertation or thesis?
 
-2. How to set up the preamble.
+2. How to set up the preamble?
 
-3. How to create chapters and sections.
+3. How to create chapters and sections?
 
-4. Cover advanced topics you may (or may not need)
+4. Cover advanced topics you may (or may not) need.
 
 ## The **nddiss2e** package
 
-The **nddiss2e** package was written using a subset of preexisting packages and customized functions to make formating you document easier. However, that also means that you may find issues was adding your own packages to your Latex document. For example, if you have a set of subfigures that you would like to caption individually, one would use the `\usepackage{subcaption}` package, however, there are conflicts between this package and the nddiss2e package that prevent both from working correctly. If you would like to use additional packages you will either need to find your own work around, or download the source code, modify it, and run it on your personal computer (meaning you can't use Overleaf). Fortunatly, most dissertations or theses don't require the use of such exotic packages and there for you should be fine.
+The **nddiss2e** package was written using a subset of preexisting packages and customized functions to make formating you document easier. However, that also means that you may find issues when adding your own packages to your Latex document. For example, if you have a set of subfigures that you would like to caption individually, one would use the `\usepackage{subcaption}` package, however, there are conflicts between this package and the nddiss2e package that prevent both from working correctly. If you would like to use additional packages you will either need to find your own work around, or download the source code, modify it, and run it on your personal computer (meaning you can't use Overleaf). Fortunatly, most dissertations or theses don't require the use of such exotic packages and therefor you should be fine.
 
 Lets start by creating a new file in Overleaf, and adding the following lines in your document:
 
@@ -45,11 +45,11 @@ Lets start by creating a new file in Overleaf, and adding the following lines in
 
 ```
 
-When you compile this document, you should see 2 pages corresponding to the coverpage of your document. The first page should not be submitted with your dissertation, and the second should look more professional. The **nddiss2e** class has preloaded a set of commonly used packages such as asmath, and graphicx, etc. You may add other packages as needed, but other than the author and document information, the `\documentclass[]{nddiss2e} is the one and only line needed in the preamble. The open `[]` are there to customize some options which we will cover momentarily.
+When you compile this document, you should see 2 pages corresponding to the coverpage of your document. The first page should not be submitted with your dissertation, and the second should look more professional. The **nddiss2e** class has preloaded a set of commonly used packages such as asmath, and graphicx, etc. You may add other packages as needed, but other than the author and document information, the `\documentclass[]{nddiss2e}` is the one and only line needed in the preamble. The open `[]` are there to customize some options which we will cover momentarily.
 
-The other lines in the preamble set up the document title, author name, and some other things that are needed. Edit the information in the `{}` brackets to reflect what your dissertation or thesis will cover. If you need a second advisor, leave that commented out for the time being. If you have a long title that spans mulitple lines, use the ``\protect\\` command. This will force a line break in the Title. The `\protect` just forces the line break to occur and is only needed in the title. 
+The other lines in the preamble set up the document title, author name, and some other things that are needed. Edit the information in the `{}` brackets to reflect what your dissertation or thesis will cover. If you need a second advisor, leave that commented out for the time being. If you have a long title that spans mulitple lines, use the `\\` command. This will force a line break in the Title. The `\protect` just forces the line break to occur and is only needed in the title. 
 
-All of this information gets transfered to the \maketitle command, which appears between the `\begin{document}` and `\end{document}` commands. The command `\frontmatter` is need to let Latex know which pages should be numbered with arabic or roman numerals. All the thing proceeding the physical dissertation, such as the abstract and table of contents, should have roman numerals and the chapters should have arabic numerals.
+All of this information gets transfered to the \maketitle command, which appears between the `\begin{document}` and `\end{document}` commands. The command `\frontmatter` is needed to let Latex know which pages should be numbered with arabic or roman numerals. All the thing proceeding the physical dissertation, such as the abstract and table of contents, should have roman numerals and the chapters should have arabic numerals.
 
 ## Customize the **nddiss2e** options 
 
@@ -208,7 +208,7 @@ The mainmatter is the content of your dissertation or thesis. This is where you 
 
 ### Unumbered Chapters
 
-If you need an unnumbered chapter for some reason, you can initilize it with the `\unnumchapter{} command` followed by the content under the chapter heading.
+If you need an unnumbered chapter for some reason, you can initilize it with the `\unnumchapter{}` command followed by the content under the chapter heading.
 
 ```
 \unnumchapter{Making Unnumbered Chapters}
@@ -252,7 +252,7 @@ If you recompile the PDF, the content for chapter 1 will be imported into **main
 
 You can also add an appendix after you have imported your chapters by using the `\appendix` command, followed by `\include{appendix.tex}` if you have created an appendix file.
 
-So far, the template of **mian.tex** should look something like this:
+So far, the template of **main.tex** should look something like this:
 
 ```
 \documentclass[final,numrefs,sort&compress,noinfo]{nddiss2e}
@@ -400,7 +400,7 @@ The rest of the document is all content based and requires the basic Latex Comma
 
 ### Extended/Long Tables
 
-Be aware that page-spanning tables a Very Odd Creatures. The "longtable" environment in LaTeX does some deep Voodoo to make everything work out properly. One of its deep incantations is to make the table appear as though it is double spaced.  You can fix this by trailing each line with "\\[-6em]" instead of just "\\". When using longtable it is also important to compile your file more than once.
+Be aware that page-spanning tables a Very Odd Creatures. The "longtable" environment in LaTeX does some deep Voodoo to make everything work out properly. One of its deep incantations is to make the table appear as though it is double spaced.  You can fix this by trailing each line with `\\[-6em]` instead of just `\\`. When using longtable it is also important to compile your file more than once.
 
 ```
 \begin{center}
