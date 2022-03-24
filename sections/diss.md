@@ -16,7 +16,7 @@ The University of Notre Dame has gathered a number of resources useful to disser
 
 ## The **nddiss2e** package
 
-The **nddiss2e** package was written using a subset of preexisting packages and customized functions to make formating you document easier. However, that also means that you may find issues when adding your own packages to your Latex document. For example, if you have a set of subfigures that you would like to caption individually, one would use the `\usepackage{subcaption}` package, however, there are conflicts between this package and the nddiss2e package that prevent both from working correctly. If you would like to use additional packages you will either need to find your own work around, or download the source code, modify it, and run it on your personal computer (meaning you can't use Overleaf). Fortunatly, most dissertations or theses don't require the use of such exotic packages and therefor you should be fine.
+The **nddiss2e** package was written using a subset of preexisting packages and customized functions to make formating you document easier. However, that also means that you may find issues when adding your own packages to your Latex document. For example, if you have a set of subfigures that you would like to caption individually, one would use the `\usepackage{subcaption}` package, however, there are conflicts between this package and the nddiss2e package that prevent both from working correctly. If you would like to use additional packages you will either need to find your own work around, or download the source code, modify it, and run it on your personal computer (meaning you can't use Overleaf). Fortunately, most dissertations or theses don't require the use of such exotic packages and therefore you should be fine.
 
 Lets start by creating a new file in Overleaf, and adding the following lines in your document:
 
@@ -37,7 +37,7 @@ Lets start by creating a new file in Overleaf, and adding the following lines in
 
 \begin{document}
 
-\frontmatter % All the items before the first chapter go in ``frontmatter''
+\frontmatter % All the items before the first chapter go in \frontmatter
 
 \maketitle
 
